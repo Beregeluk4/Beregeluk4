@@ -1,5 +1,5 @@
 body{
-    background-color: darkgreen;
+    background-image: url(img/strand.jpg);
 }
 
 h1{
@@ -12,4 +12,14 @@ h1{
 
 ol{
     color: white;
+}
+
+#tabel{
+    margin-left: auto;
+  margin-right: auto;
+}
+
+#chart{
+    margin-left: auto;
+    margin-right: auto; 
 }
