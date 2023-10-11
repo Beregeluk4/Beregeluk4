@@ -2,36 +2,12 @@
 <html lang="en">
 
 <head>
-  <style>
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
 
-    li {
-      float: left;
-    }
-
-    li a {
-      display: block;
-      padding: 8px;
-      background-color: #dddddd;
-    }
-  </style>
-  <style>
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-  </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My profile</title>
-  <link href="style.css" rel="stylesheet">
+  <link href="../CSS/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -39,12 +15,14 @@
   <header>
     <nav>
       <ul>
-        <li><a href="index.html">Home<i class="fa fa-home" aria-hidden="true"></i></a></li>
-        <li><a href="profile.html">Profile<i class="fa fa-user" aria-hidden="true"></i></a></li>
-        <li><a href="dashboard.html">Dashboard<i class="fa fa-bullseye" aria-hidden="true"></i></a></li>
-        <li><a href="FAQ.html">FAQ<i class="fa fa-comments" aria-hidden="true"></i></a></li>
-        <li><a href="blog.html">Blog<i class="fa fa-sticky-note" aria-hidden="true"></i></a></li>
-        <li><a href="post.html">post<i class="fa fa-comment-o" aria-hidden="true"></i></a></li>
+        <div class="topnav">
+          <li><a href="index.html">Home<br><i class="fa fa-home" aria-hidden="true"></i></a></li>
+          <li><a href="profile.html">Profile<br><i class="fa fa-user" aria-hidden="true"></i></a></li>
+          <li><a href="dashboard.html">Dashboard<br><i class="fa fa-bullseye" aria-hidden="true"></i></a></li>
+          <li><a href="FAQ.html">FAQ<br><i class="fa fa-comments" aria-hidden="true"></i></a></li>
+          <li><a href="blog.html">Blog<br><i class="fa fa-sticky-note" aria-hidden="true"></i></a></li>
+          <li><a href="post.html">post<br><i class="fa fa-comment-o" aria-hidden="true"></i></a></li>
+        </div>
       </ul>
     </nav>
   </header>
@@ -52,23 +30,26 @@
   <article class="all-browsers">
     <h1>Mijn blog</h1>
     <article class="browser">
-      <h2>Wie ben ik?</h2>
-      <p>Ik ben Renzo Debeer 19 jaar en ben opgegroeid in Rumst, Belgie. Ik woon samen met mijn ouders, mijn zusje, een
-        hond en een kat. In mijn vrije tijd voetbal ik en speel ik muziek. Verder heb ik de afgelopen 5 jaar elke zomer
-        in een laad los bedrijf gaan werken in Belgie.</p>
+      <h2>SWOT analyse</h2>
+      <textarea disabled>Mijn sterke punten zijn: dat ik doorzettingsvormogen heb. Verder ben ik behulpzaam en wil ik zoveel mogelijk andere helpen voor zover het mogelijk is. Daarnaast ben ik ook ambitieus waarbij ik 100% voor iets wil gaan als het mij interesseert. 
+Mijn valkuilen zijn: dat als het onderwerp me niet intereseert ik sneller opgeef. Ik doe bij een groepproject meestal alles zelf omdat ik dan zeker ben dat het goed gedaan word. Waardoor ik dan veel stress heb omdat ik alles ook perfect wil doen en er eigenlijk te weinig tijd voor heb. 
+Mijn kansen zijn: Om nieuwe dingen te leren aangezien ik nog niet super veel weet. Daarnaast kan ik dus wel eventueel goed contact maken met andere studenten die al wat meer ervaring hebben en zo dus om hulp kan vragen. Bij deze opleiding zal je ook veel met andere mensen en met bedrijven moeten samenwerken waardoor je ook je connecties wat kunt vergoten binnen het werkveld.
+Mijn risico`s zijn: Dat ik meestal alles alleen wil doen omdat ik dan zeker ben dat het goed gedaan wordt en ook omdat meestal de rest van het groepje niet zoveel meewerkt. Hierdoor leg ik teveel stress op mezelf waardoor ik het waarschijnlijk ook moeilijker heb en ga nadenken of de opleiding niet te zwaar is. Daarnaast wil ik voor iedereen goed doen. Waardoor ik andere ga helpen ook als ik zelf niet zoveel tijd meer heb om mijn opdrachten te maken.</textarea>
     </article>
     <article class="browser">
       <h2>Programeer ervaring</h2>
-      <p>Ik heb nog geen programeer ervaringen en heb daarom online een paar cursussen gedaan om wat bekend te raken met
-        de basis die we nodig hebben voor de opleiding. Daarbij heb ik een paar uur bezig geweest om de cursussen te
-        maken en ben ik een beetje te weten gekomen wat het nu precies inhoud.</p>
+      <textarea
+        disabled>Ik heb nog geen programeer ervaringen en heb daarom online een paar cursussen gedaan om wat bekend te raken met de basis die we nodig hebben voor de opleiding. Daarbij heb ik een paar uur bezig geweest om de cursussen te maken en ben ik een beetje te weten gekomen wat het nu precies inhoud. Verder zijn we ondertussen al zo'n maand bezig met school en heb ik geleerd hoe je een website kan maken en wat er allemaal bij komt kijken. Verder heb ik geleerd wat het verleden van de computer is en hoe het dus veranderd is met de jaren. Daarnaast heb ik nog geleerd hoe ik basis dingen kan programmeren met java script.</textarea>
     </article>
     <article class="browser">
       <h2>Feedback van docent</h2>
-      <p></p>
+      <textarea disabled> Nadat ik 2 weken lang bezig ben geweest met mijn website te maken hebben we een evaluatie moment gehouden waarbij we gingen kijken naar de website van andere studenten en docenten en andere studenten bij mij gingen kijken om te zien wat er nog beter kon aan mijn website. Hierbij heb ik voornamelijk dezelfde feedback gekregen. De feedback die ik het meeste heb gekregen is dat door de achtergrond mijn tekst minder goed zichtbaar was. Dit had ik van te voren ook al door maar wist nog niet hoe ik dit kon aanpassen dus heb als advies van een docent gekregen om een textarea aan te maken en die doorschijnend te maken. Daarnaast had ik nog de tip gekregen om mijn uiterlijk van de website in css te zetten en niet in html. Als laatste had ik nog meegekregen dat ik mijn website moet kunnen draaien via xampp.
+      </textarea>
     </article>
   </article>
 
 </body>
+
+<footer>Renzo Debeer</footer>
 
 </html>

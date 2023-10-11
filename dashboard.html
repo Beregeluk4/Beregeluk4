@@ -2,245 +2,222 @@
 <html lang="en">
 
 <head>
-  <style>
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
 
-    li {
-      float: left;
-    }
-
-    li a {
-      display: block;
-      padding: 8px;
-      background-color: #dddddd;
-    }
-  </style>
-  <style>
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;      
-    }
-  </style>
-  <style>
-    tr:nth-child(even) {
-      background-color: #D6EEEE;
-    }
-    </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My profile</title>
-  <link href="style.css" rel="stylesheet">
+  <link href="../CSS/style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  
+
   <header>
     <nav>
       <ul>
-        <li><a href="index.html">Home<i class="fa fa-home" aria-hidden="true"></i></a></li>
-        <li><a href="profile.html">Profile<i class="fa fa-user" aria-hidden="true"></i></a></li>
-        <li><a href="dashboard.html">Dashboard<i class="fa fa-bullseye" aria-hidden="true"></i></a></li>
-        <li><a href="FAQ.html">FAQ<i class="fa fa-comments" aria-hidden="true"></i></a></li>
-        <li><a href="blog.html">Blog<i class="fa fa-sticky-note" aria-hidden="true"></i></a></li>
+        <div class="topnav">
+          <li><a href="index.html">Home<br><i class="fa fa-home" aria-hidden="true"></i></a></li>
+          <li><a href="profile.html">Profile<br><i class="fa fa-user" aria-hidden="true"></i></a></li>
+          <li><a href="dashboard.html">Dashboard<br><i class="fa fa-bullseye" aria-hidden="true"></i></a></li>
+          <li><a href="FAQ.html">FAQ<br><i class="fa fa-comments" aria-hidden="true"></i></a></li>
+          <li><a href="blog.html">Blog<br><i class="fa fa-sticky-note" aria-hidden="true"></i></a></li>
+        </div>
       </ul>
     </nav>
   </header>
-  
+
   <table id="tabel">
-    
+
     <thead>
       <tr>
-        <th colspan="5">examens dit schooljaar</th>
+        <th colspan="5">
+          <h1>examens dit schooljaar</h1>
+        </th>
       </tr>
     </thead>
-      <tr>
-        <td>Periode</td>
-        <td>Cursus</td>
-        <td>EC</td>
-        <td>Examen</td>
-        <td>Cijfer</td>
-      </tr>
-      <tr>
-        <td rowspan="6">1</td>
-        <td>CU75001V3</td>
-        <td>2.5EC</td>
-        <td>Portfolio based 
-          assessment</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>CU75002V2</td>
-        <td>5</td>
-        <td> written exam</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>CU75003V1</td>
-        <td>5</td>
-        <td>Case study exam</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>CU75068V1</td>
-        <td>12.5</td>
-        <td>Criterium focused
-          assessment</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>CU75054V1</td>
-        <td>1.25</td>
-        <td>Portfolio</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>CU75056V1</td>
-        <td>1.25</td>
-        <td>Portfolio</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>CU75004v1</td>
-        <td>10EC</td>
-        <td>presentation and Case study exam</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td rowspan="2">3</td>
-        <td>CU75008V1</td>
-        <td>5EC</td>
-        <td>case study exam</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>CU75009V3</td>
-        <td>7.5EC</td>
-        <td> Criterium focused 
-          assesment</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td rowspan="3">4</td>
-        <td>CU75011V3</td>
-        <td>10EC</td>
-        <td>Criterium focused 
-          assesment</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>CU75055V1</td>
-        <td>1.25</td>
-        <td>Portfolio</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>CU75057V1</td>
-        <td>1.25</td>
-        <td>Portfolio</td>
-        <td></td>
-      </tr>
-   
+    <tr>
+      <td>Periode</td>
+      <td>Cursus</td>
+      <td>EC</td>
+      <td>Examen</td>
+      <td>Cijfer</td>
+    </tr>
+    <tr>
+      <td rowspan="6">1</td>
+      <td>CU75001V3</td>
+      <td>2.5EC</td>
+      <td>Portfolio based
+        assessment</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CU75002V2</td>
+      <td>5</td>
+      <td> written exam</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CU75003V1</td>
+      <td>5</td>
+      <td>Case study exam</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CU75068V1</td>
+      <td>12.5</td>
+      <td>Criterium focused
+        assessment</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CU75054V1</td>
+      <td>1.25</td>
+      <td>Portfolio</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CU75056V1</td>
+      <td>1.25</td>
+      <td>Portfolio</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>CU75004v1</td>
+      <td>10EC</td>
+      <td>presentation and Case study exam</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2">3</td>
+      <td>CU75008V1</td>
+      <td>5EC</td>
+      <td>case study exam</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CU75009V3</td>
+      <td>7.5EC</td>
+      <td> Criterium focused
+        assesment</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="3">4</td>
+      <td>CU75011V3</td>
+      <td>10EC</td>
+      <td>Criterium focused
+        assesment</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CU75055V1</td>
+      <td>1.25</td>
+      <td>Portfolio</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CU75057V1</td>
+      <td>1.25</td>
+      <td>Portfolio</td>
+      <td></td>
+    </tr>
+
   </table>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-    <script>
-      function sumArrayUpTo(arrData, index) {
-        var total = 0;
-        for (var i = 0; i <= index; i++) {
-          if (arrData.length > i) {
-            total += arrData[i];
-          }
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <script>
+    function sumArrayUpTo(arrData, index) {
+      var total = 0;
+      for (var i = 0; i <= index; i++) {
+        if (arrData.length > i) {
+          total += arrData[i];
         }
-        return total;
       }
+      return total;
+    }
 
-      function showBurnDown(elementId, burndownData, scopeChange = []) {
+    function showBurnDown(elementId, burndownData, scopeChange = []) {
 
-        var speedCanvas = document.getElementById(elementId);
+      var speedCanvas = document.getElementById(elementId);
 
-        Chart.defaults.global.defaultFontFamily = "Arial";
-        Chart.defaults.global.defaultFontSize = 14;
+      Chart.defaults.global.defaultFontFamily = "Arial";
+      Chart.defaults.global.defaultFontSize = 14;
 
-        const totalHoursInSprint = burndownData[0];
-        const idealHoursPerDay = totalHoursInSprint / 9;
-        i = 0;
+      const totalHoursInSprint = burndownData[0];
+      const idealHoursPerDay = totalHoursInSprint / 9;
+      i = 0;
 
-        var speedData = {
-          labels: ["periode 1", "periode 2", "periode 3", "periode 4"],
-          datasets: [
-            {
-              label: "Cijfer",
-              data: burndownData,
-              fill: false,
-              borderColor: "#EE6868",
-              backgroundColor: "#EE6868",
-              lineTension: 0,
-            },
-            {
-              label: "Ideal",
-              borderColor: "#FFFF",
-              backgroundColor: "#FFFF",
-              lineTension: 0,
-              borderDash: [5, 5],
-              fill: false,
-              data: [
-                11.25, // 1
-                22.50, // 2
-                33.75, // 3
-                45.00 // 4
-              ]
-            },
-          ]
-        };
-
-        var chartOptions = {
-          legend: {
-            display: true,
-            position: 'top',
-            labels: {
-              boxWidth: 100,
-              fontColor: 'black'
-            }
+      var speedData = {
+        labels: ["periode 1", "periode 2", "periode 3", "periode 4"],
+        datasets: [
+          {
+            label: "Cijfer",
+            data: burndownData,
+            fill: false,
+            borderColor: "#EE6868",
+            backgroundColor: "#EE6868",
+            lineTension: 0,
           },
-          scales: {
-            yAxes: [{
-              ticks: {
-                min: 0,
-                max: 60
-              }
-            }]
+          {
+            label: "Ideal",
+            borderColor: "#FFFF",
+            backgroundColor: "#FFFF",
+            lineTension: 0,
+            borderDash: [5, 5],
+            fill: false,
+            data: [
+              11.25, // 1
+              22.50, // 2
+              33.75, // 3
+              45.00 // 4
+            ]
+          },
+        ]
+      };
+
+      var chartOptions = {
+        legend: {
+          display: true,
+          position: 'top',
+          labels: {
+            boxWidth: 100,
+            fontColor: 'black'
           }
-        };
+        },
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+              max: 60
+            }
+          }]
+        }
+      };
 
-        var lineChart = new Chart(speedCanvas, {
-          type: 'line',
-          data: speedData,
-          options: chartOptions
-        });
+      var lineChart = new Chart(speedCanvas, {
+        type: 'line',
+        data: speedData,
+        options: chartOptions
+      });
 
-      }
-    </script>
+    }
+  </script>
 
 
-    <div style="width:800px;" id="chart"><canvas id="burndown43"></canvas></div>
-    <script>
-      showBurnDown(
-        "burndown43",
-        //   1    2    3    4    5    6    7    8    9  10
-        [0, 0, 0, 0,], // cijfers gehaald
-        [11, 25, 22, 5, 33, 75, 45, 60]  // gemiddeld nodig
-      );
-    </script>
-    
+  <div style="width:800px;" id="chart"><canvas id="burndown43"></canvas></div>
+  <script>
+    showBurnDown(
+      "burndown43",
+      //   1    2    3    4    5    6    7    8    9  10
+      [0, 0, 0, 0,], // cijfers gehaald
+      [11.25, 22.5, 33.75, 45, 60]  // gemiddeld nodig
+    );
+  </script>
+
 </body>
+
+<footer>Renzo Debeer</footer>
 
 </html>
